@@ -1,0 +1,348 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+
+/* base styles */
+* {
+  margin: 0;
+  font-family: "Quicksand";
+  color: #333;
+}
+.navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 1000px;
+  margin: 0 auto;
+  border-bottom: 1px solid #f2f2f2;
+}
+.navbar h1 {
+  color: #f1356d;
+}
+.navbar .links {
+  margin-left: auto;
+}
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+}
+.navbar a:hover {
+  color: #f1356d;
+}
+.content {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 20px;
+  display:flex; 
+  flex-direction:row;
+  gap: 30px;
+}
+
+
+/* navbarUser */
+
+.navbaruser {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 700px;
+  margin: 0 auto;
+  border-bottom: 1px solid #f2f2f2;
+}
+
+.navbaruser h1 {
+  color: #f1356d;
+}
+.navbaruser .links {
+  margin-left: auto;
+}
+.navbaruser a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 15px;
+}
+.navbaruser a:hover {
+  color: #f1356d;
+}
+
+/* blog previews / list */
+.blog-preview {
+  padding: 10px 16px;
+  margin: 20px 0;
+  border-bottom: 1px solid #fafafa;
+}
+.blog-preview:hover {
+  box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
+}
+.blog-preview h2 {
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 8px;
+}
+.blog-preview a{
+  text-decoration: none;
+}
+
+/* blog details page */
+.blog-details h2 {
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 10px;
+}
+.blog-details div {
+  margin: 20px 0;
+}
+.blog-details button {
+  background: #f1356d;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* create new blog form */
+.create {
+  max-width: 400px;
+  margin: 0 auto;
+  border-radius: 25px;
+  padding: 20px;
+  text-align: center;
+  border: 2px solid #ffa07a;
+}
+.create label {
+  text-align: left;
+  display: block;
+}
+.create h2 {
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 30px;
+}
+.create input, .create textarea, .create select {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+.create button {
+  background: #f1356d;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/*login*/
+
+.login {
+  max-width: 400px;
+  margin: 0 auto;
+  border-radius: 25px;
+  padding: 20px;
+  border: 2px solid #ffa07a;
+  text-align: center;
+}
+.login label {
+  text-align: left;
+  display: block;
+}
+.login h2 {
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 30px;
+}
+.login input {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+.login button {
+  background: #f1356d;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* user profile*/
+
+.userProfile{
+  border-radius: 25px;
+  padding: 20px;
+  width: 150px;
+  height: 300px;
+  box-shadow:20px 20px 50px grey;  
+}
+
+.userProfile h1{
+  font-size: 15px;
+  color: #f1356d;
+  margin-top: 30px;
+}
+
+.userProfile img{
+  display:block;
+  margin:auto;
+  border-radius: 8px;
+  width: 100px;
+}
+
+.userData{
+  border-radius: 25px;
+  padding: 20px;
+  width: 500px;
+  height: 300px;
+  box-shadow:20px 20px 50px grey; 
+}
+
+.userData button {
+  background: #f1356d;
+  color: #fff;
+  border: 0;
+  height: fit-content;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-left: 200px ;
+}
+
+
+
+/*row C*/
+
+.rowC{
+  display:flex; 
+  flex-direction:row;
+  gap: 30px;
+}
+
+.rowC h1{
+  font-size: 18px;
+  color: #4d79ff;
+  margin-bottom: 40px;
+}
+
+.rowC h2{
+  font-size: 15px;
+  color: black;
+  margin-left: auto;
+  margin-bottom: 40px;
+
+}
+
+.rowC input {
+  width: 200px;
+  height: 20px;
+  text-align: center;
+  margin-left: auto;
+  border: 2px solid blue;
+  border-radius: 4px;
+}
+
+
+/*payment*/
+
+.payment{
+  border-radius: 25px;
+  padding: 20px;
+  width: 660px;
+  height: 200px;
+  box-shadow:20px 20px 50px grey; 
+  text-align:center;
+  margin-left: 325px;
+}
+
+.payment select {
+  width: 200px;
+  padding: 6px 10px;
+  text-align: center;
+  border-radius: 25px;
+  box-sizing: border-box;
+  display: block;
+  margin-top: 10px;
+  margin:auto;
+}
+
+.payment h1 {
+  margin:auto;
+  line-height:51px;
+  vertical-align:middle;
+}
+
+.payment button{
+  background: #f1356d;
+  color: #fff;
+  border: 0;
+  height: fit-content;
+  margin-top: 50px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-left: auto;
+}
+
+/*dashboard*/
+
+.Admin {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  gap: 30px;
+}
+
+.capital , .cantidadClientes {
+  border-radius: 25px;
+  padding: 20px;
+  width: 375px;
+  height: 300px;
+  box-shadow:20px 20px 50px grey;  
+}
+
+
+/*Modal css*/
+
+.modal-header {
+  border-bottom:1px solid #eee;
+  background-color: orangered; 
+  justify-content: center;
+}
+
+.modal-header h1 {
+  margin:auto;
+  line-height:51px;
+  vertical-align:middle;
+  font-family: "Times New Roman", Times, serif;
+  color: #fff;
+}
+
+.modal-footer button{
+  background: #f1356d;
+  color: #fff;
+  border: 0;
+  height: fit-content;
+  border-radius: 8px;
+  cursor: pointer;
+  margin: auto;
+}
+
+.createEvent{
+  margin: auto;
+  display:flex; 
+  flex-direction:column;
+}
+
+.createEvent label{
+  font-family: cursive;
+  font-size: 20px;
+}
+
+/**/
+.sportWeek button{
+  margin-left: .5rem; /* 4px */
+}
